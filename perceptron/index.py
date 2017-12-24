@@ -69,3 +69,10 @@ class Perceptron(object):
     def predict(self, X):
         """ Clase de retorno lavel despues del paso de la unidad"""
         return np.where(self.net_input(X) >= 0.0, 1, -1)
+
+
+
+v1 = np.array([1,2,3])
+v2 = 0.5 * v1
+
+print(np.arccos(v1.dot(v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))))
