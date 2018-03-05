@@ -1,3 +1,0 @@
-entrypoint: python-platzi
-env: flex
-runtime: python
